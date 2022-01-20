@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.javaex.dao.GuestbookDao;
 import com.javaex.vo.GuestbookVo;
 
+
 @Controller
 @RequestMapping(value = "/guest")
 public class GuestController {
