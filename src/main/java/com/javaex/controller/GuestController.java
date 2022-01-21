@@ -30,7 +30,7 @@ public class GuestController {
 	public String addList(Model model) {
 		System.out.println("GuestController>addList");
 		
-		List<GuestbookVo> guestbookList = new GuestbookDao().getList();
+		List<GuestbookVo> guestbookList = guestbookDao.getList();
 		model.addAttribute("guestbookList", guestbookList);
 		
 		return "addList";

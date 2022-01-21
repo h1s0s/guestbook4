@@ -22,11 +22,11 @@
 		]]>
 	</insert>
 	
-	<delete id="delete" parameterType="com.javaex.vo.GuestbookVo">
+ 	<delete id="delete" parameterType="com.javaex.vo.GuestbookVo">
 		<![CDATA[
-			query += " delete from guestbook ";
-			query += " where no = #{no} ";
-			query += " and password = #{password} "
+			delete from guestbook
+			where no = #{no}
+			and password = #{password}
 		]]>
 	</delete>
 	

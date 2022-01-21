@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.javaex.vo.GuestbookVo;
 
+
 @Repository
 public class GuestbookDao {
 
